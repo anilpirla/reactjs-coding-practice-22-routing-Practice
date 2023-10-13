@@ -1,0 +1,30 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.about-img {
+  width: 150px;
+}
+
+.about-heading {
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.about-paragraph {
+  color: #555555;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 48px;
+  }
+}
